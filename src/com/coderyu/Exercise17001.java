@@ -1,10 +1,11 @@
 package com.coderyu;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Main {
+public class Exercise17001 {
     public static void main(String[] args) {
         String[] fruits=new String[]{"apple","banana","oreng","grape","pineapple"};
         List<String> arrayList=new ArrayList<>();
@@ -24,10 +25,10 @@ public class Main {
         System.out.println(arrayList);
         System.out.println(linkedList);
     }
-}/* out put
+}/*
 [apple, banana, oreng, grape, pineapple]
 [apple, banana, oreng, grape, pineapple]
 After Collectons.shuffle()
-[banana, grape, pineapple, apple, oreng]
-[oreng, pineapple, grape, apple, banana]
+[apple, grape, pineapple, oreng, banana]
+[grape, banana, apple, oreng, pineapple]
 */
