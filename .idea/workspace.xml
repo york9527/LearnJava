@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16d1abde-02fd-4641-baeb-ee2bfd12a302" name="Default Changelist" comment="Collections.shuffle test">
-      <change afterPath="$PROJECT_DIR$/src/com/coderyu/kata/BowlingGame2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/coderyu/kata/BowlingGame2Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/coderyu/kata/BowlingGame2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/coderyu/kata/BowlingGame2Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +15,7 @@
     <session id="-1407164209">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
@@ -31,13 +29,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="24" />
-          <entry key="java" value="3918" />
+          <entry key="java" value="3931" />
           <entry key="txt" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3918" />
+          <entry key="JAVA" value="3931" />
           <entry key="PLAIN_TEXT" value="67" />
         </counts>
       </usages-collector>
@@ -59,25 +57,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/coderyu/kata/BowlingGame.java">
+        <entry file="file://$PROJECT_DIR$/src/com/coderyu/kata/BowlingGame2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
               <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-              <folding>
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#826#827#0" expanded="true" />
-                <element signature="e#904#905#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/coderyu/kata/BowlingGame2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-294">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding>
                 <element signature="e#182#183#0" expanded="true" />
                 <element signature="e#218#219#0" expanded="true" />
@@ -96,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/coderyu/kata/BowlingGame2Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="878">
-              <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+            <state relative-caret-position="424">
+              <caret line="75" column="21" lean-forward="true" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#282#283#0" expanded="true" />
@@ -141,8 +124,8 @@
         <option value="$PROJECT_DIR$/src/com/coderyu/Exercise17002.java" />
         <option value="$PROJECT_DIR$/src/com/coderyu/kata/BowlingGame.java" />
         <option value="$PROJECT_DIR$/test/com/coderyu/kata/BowlingGameTest.java" />
-        <option value="$PROJECT_DIR$/test/com/coderyu/kata/BowlingGame2Test.java" />
         <option value="$PROJECT_DIR$/src/com/coderyu/kata/BowlingGame2.java" />
+        <option value="$PROJECT_DIR$/test/com/coderyu/kata/BowlingGame2Test.java" />
       </list>
     </option>
   </component>
@@ -214,7 +197,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547030160619" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547030906021" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -243,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BowlingGame2Test">
+  <component name="RunManager" selected="JUnit.BowlingGame2Test.testTenPinsNotSpare">
     <configuration name="BowlingGame2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearnJava" />
       <extension name="coverage">
@@ -269,22 +252,6 @@
       <option name="PACKAGE_NAME" value="com.coderyu.kata" />
       <option name="MAIN_CLASS_NAME" value="com.coderyu.kata.BowlingGame2Test" />
       <option name="METHOD_NAME" value="roll_all_strike" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BowlingGame2Test.roll_one_spare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LearnJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.coderyu.kata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.coderyu.kata" />
-      <option name="MAIN_CLASS_NAME" value="com.coderyu.kata.BowlingGame2Test" />
-      <option name="METHOD_NAME" value="roll_one_spare" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -322,20 +289,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BowlingGame2Test.testTenPinsNotSpare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LearnJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coderyu.kata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.coderyu.kata" />
+      <option name="MAIN_CLASS_NAME" value="com.coderyu.kata.BowlingGame2Test" />
+      <option name="METHOD_NAME" value="testTenPinsNotSpare" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.BowlingGame2Test.roll_one_spare" />
       <item itemvalue="JUnit.BowlingGame2Test.roll_two_spare" />
       <item itemvalue="JUnit.BowlingGame2Test" />
       <item itemvalue="JUnit.BowlingGame2Test.roll_one_strike" />
       <item itemvalue="JUnit.BowlingGame2Test.roll_all_strike" />
+      <item itemvalue="JUnit.BowlingGame2Test.testTenPinsNotSpare" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BowlingGame2Test.testTenPinsNotSpare" />
         <item itemvalue="JUnit.BowlingGame2Test" />
         <item itemvalue="JUnit.BowlingGame2Test.roll_all_strike" />
         <item itemvalue="JUnit.BowlingGame2Test.roll_one_strike" />
         <item itemvalue="JUnit.BowlingGame2Test.roll_two_spare" />
-        <item itemvalue="JUnit.BowlingGame2Test.roll_one_spare" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +339,7 @@
       <workItem from="1546867449576" duration="678000" />
       <workItem from="1546932452312" duration="11950000" />
       <workItem from="1546954973812" duration="42000" />
-      <workItem from="1547025519119" duration="4474000" />
+      <workItem from="1547025519119" duration="5821000" />
     </task>
     <task id="LOCAL-00001" summary="Collections.shuffle test">
       <created>1545272112190</created>
@@ -369,12 +352,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BowlingGame2Test_roll_one_spare - 2019.01.09 at 17h 58m 11s.xml">
-      <configuration name="BowlingGame2Test.roll_one_spare" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BowlingGame2Test_roll_one_spare - 2019.01.09 at 17h 58m 49s.xml">
-      <configuration name="BowlingGame2Test.roll_one_spare" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BowlingGame2Test_roll_one_spare - 2019.01.09 at 17h 59m 26s.xml">
       <configuration name="BowlingGame2Test.roll_one_spare" configurationId="JUnit" />
     </history-entry>
@@ -399,15 +376,21 @@
     <history-entry file="BowlingGame2Test - 2019.01.09 at 18h 20m 51s.xml">
       <configuration name="BowlingGame2Test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BowlingGame2Test_testTenPinsNotSpare - 2019.01.09 at 18h 47m 54s.xml">
+      <configuration name="BowlingGame2Test.testTenPinsNotSpare" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BowlingGame2Test_testTenPinsNotSpare - 2019.01.09 at 18h 48m 23s.xml">
+      <configuration name="BowlingGame2Test.testTenPinsNotSpare" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27443000" />
+    <option name="totallyTimeSpent" value="28790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.211126" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.211126" />
       <window_info id="Structure" order="1" sideWeight="0.5010571" side_tool="true" weight="0.20308311" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -416,7 +399,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010571" side_tool="true" weight="0.20308311" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33900708" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24113475" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28085107" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -514,22 +497,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/coderyu/kata/BowlingGame2Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="878">
-          <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/coderyu/kata/BowlingGame2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-294">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="273">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
           <folding>
             <element signature="e#182#183#0" expanded="true" />
             <element signature="e#218#219#0" expanded="true" />
@@ -543,6 +514,18 @@
             <element signature="e#872#873#0" expanded="true" />
             <element signature="e#832#833#0" expanded="true" />
             <element signature="e#906#907#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/coderyu/kata/BowlingGame2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="75" column="21" lean-forward="true" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
           </folding>
         </state>
       </provider>

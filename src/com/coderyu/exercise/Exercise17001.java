@@ -1,4 +1,4 @@
-package com.coderyu;
+package com.coderyu.exercise;
 
 import java.util.ArrayList;
 import java.util.Collections;

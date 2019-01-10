@@ -1,4 +1,4 @@
-package com.coderyu;
+package com.coderyu.exercise;
 
 public class Countries {
     public static final String[][] DATA = {

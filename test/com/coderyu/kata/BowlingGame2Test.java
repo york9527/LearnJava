@@ -69,4 +69,13 @@ class BowlingGame2Test {
         rollMany(10,12);
         assertEquals(30*10,game.score());
     }
+    @Test
+    public void testTenPinsNotSpare() {
+        game.roll(0);
+        game.roll(7);
+        game.roll(3);
+        game.roll(2);
+        rollMany(0, 16);
+        assertEquals(12, game.score());
+    }
 }
