@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16d1abde-02fd-4641-baeb-ee2bfd12a302" name="Default Changelist" comment="Collections.shuffle test">
-      <change afterPath="$PROJECT_DIR$/src/com/coderyu/currency/SynchronizedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/coderyu/currency/ThreadJoinTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/coderyu/currency/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/coderyu/currency/ReentrantLockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/coderyu/currency/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/coderyu/currency/TestMain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,24 +31,24 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="24" />
-          <entry key="java" value="6079" />
+          <entry key="java" value="6760" />
           <entry key="txt" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6079" />
+          <entry key="JAVA" value="6760" />
           <entry key="PLAIN_TEXT" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="28" />
+          <entry key="java" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="28" />
+          <entry key="JAVA" value="30" />
         </counts>
       </usages-collector>
     </session>
@@ -62,10 +59,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/coderyu/currency/SynchronizedTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/coderyu/currency/ReentrantLockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+            <state relative-caret-position="189">
+              <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,6 +112,8 @@
         <option value="$PROJECT_DIR$/src/com/coderyu/currency/Tools.java" />
         <option value="$PROJECT_DIR$/src/com/coderyu/currency/ThreadJoinTest.java" />
         <option value="$PROJECT_DIR$/src/com/coderyu/currency/SynchronizedTest.java" />
+        <option value="$PROJECT_DIR$/src/com/coderyu/currency/ReentrantLock.java" />
+        <option value="$PROJECT_DIR$/src/com/coderyu/currency/ReentrantLockTest.java" />
       </list>
     </option>
   </component>
@@ -188,7 +187,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547196380150" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547201199413" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -217,7 +216,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SynchronizedTest">
+  <component name="RunManager" selected="Application.ReentrantLockTest">
+    <configuration name="ReentrantLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coderyu.currency.ReentrantLockTest" />
+      <module name="LearnJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coderyu.currency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SerialMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.coderyu.currency.SerialMain" />
       <module name="LearnJava" />
@@ -270,36 +282,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BowlingGame2Test.testTenPinsNotSpare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LearnJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.coderyu.kata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.coderyu.kata" />
-      <option name="MAIN_CLASS_NAME" value="com.coderyu.kata.BowlingGame2Test" />
-      <option name="METHOD_NAME" value="testTenPinsNotSpare" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.BowlingGame2Test.testTenPinsNotSpare" />
       <item itemvalue="Application.SerialMain" />
       <item itemvalue="Application.TestMain" />
       <item itemvalue="Application.ThreadJoinTest" />
       <item itemvalue="Application.SynchronizedTest" />
+      <item itemvalue="Application.ReentrantLockTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReentrantLockTest" />
         <item itemvalue="Application.SynchronizedTest" />
         <item itemvalue="Application.ThreadJoinTest" />
         <item itemvalue="Application.TestMain" />
         <item itemvalue="Application.SerialMain" />
-        <item itemvalue="JUnit.BowlingGame2Test.testTenPinsNotSpare" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +318,7 @@
       <workItem from="1546954973812" duration="42000" />
       <workItem from="1547025519119" duration="5821000" />
       <workItem from="1547114355092" duration="5421000" />
-      <workItem from="1547173797490" duration="8595000" />
+      <workItem from="1547173797490" duration="11767000" />
     </task>
     <task id="LOCAL-00001" summary="Collections.shuffle test">
       <created>1545272112190</created>
@@ -367,7 +363,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42806000" />
+    <option name="totallyTimeSpent" value="45978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -382,7 +378,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010571" side_tool="true" weight="0.20308311" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20567375" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36312056" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28085107" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -556,8 +552,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/coderyu/currency/SynchronizedTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        <state relative-caret-position="258">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/function/IntConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/coderyu/currency/ReentrantLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
